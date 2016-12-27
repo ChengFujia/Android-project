@@ -1,1 +1,3 @@
 # Android-project
+
+1. First, Prof.Tan's one...
