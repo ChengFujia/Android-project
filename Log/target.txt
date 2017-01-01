@@ -12,10 +12,19 @@
 当前进展：
 	1）利用ADB（android develop bridge）可以输出日志信息到本地，原理在于以电脑为客户端，手机为服务器端，调用手机命令行
 	   http://jingyan.baidu.com/article/eb9f7b6d6fae86869364e88c.html
-	   在C:/adb安装了本工具，但是显示“找不到设备”，网上分析是找不到驱动
-	2）试着在D:/安装了Android_Driver和MyDownloads，分别为驱动程序，但都没什么效果
-           http://blog.csdn.net/stpeace/article/details/24815417
-	   http://www.pc6.com/softview/SoftView_65436.html
-	   http://www.cr173.com/soft/62321.html
-	3）如果解决了驱动的问题，将会研究指令，先获取基本的log,在研究其他APP认证信息以及详细日志获取
+
+	当前问题：
+	   	在C:/adb安装了本工具，但是adb logcat ... 后 显示“找不到设备”，网上分析是找不到驱动，其实都是瞎扯
+	解决方案：
+	   	最后一种方法：http://www.cnblogs.com/yanzisucheng/p/4369266.html 路径为 C:\Users\fujia\.android
+
+	当前问题：
+		在 adb devices中有显示，但是为offline,而且 adb logcat 还是没有效果
+	解决方案：
+		http://jingyan.baidu.com/article/e8cdb32b435ce637052bad14.html android版本与adb版本不兼容 更新adb版本至1.0.32
+
+	   目前：通过 adb logcat -v time 1>.\\logcat.log 终于有内容写入了
+		 格式如下：01-01 18:42:06.007 I/SurfaceFlinger(  254): [Built-in Screen (type:0)] fps:2.949426,dur:1017.15,max:752.99,min:37.14
+
+	2）接着会研究指令，先获取基本的log,在研究其他APP认证信息以及详细日志获取
   	   http://blog.csdn.net/ameyume/article/details/7667574
