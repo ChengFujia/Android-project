@@ -68,6 +68,8 @@
 	   百度搜索 “编译安卓源码下真机”，待研究。。。
 	   http://blog.csdn.net/u011422742/article/details/52253637
 
+	   http://blog.csdn.net/fuchaosz/article/details/52473660
+
 	4）android系统 源代码阅读指南 
 	  （系统的讲解了阅读android源代码的步骤 并罗列了众多链接资源，其中关于环境搭建，与我们修改系统源代码相关，因此应当详细看下）
 	   http://blog.csdn.net/watermusicyes/article/details/38531537
