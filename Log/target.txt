@@ -65,6 +65,14 @@
 	   https://zhidao.baidu.com/question/1384240857848391780
 
 	   编译安卓源码下真机，突然明白就是“刷机”
+	   下真机 大概思路 -- 编译后的一堆img,在同一路径下，直接fastboot即可
+	          具体说明 -- 对照刷官方rom包，验证了本思路，因为./flash-all.sh脚本做的主要工作即是如此
+	   https://www.zhihu.com/question/19824640
+
+	   编译安卓源码与系统源码 -- 区别 + 详细步骤
+    	   http://blog.sina.com.cn/s/blog_b47e52490102uztf.html
+	   http://blog.csdn.net/c15522627353/article/details/51151156
+
 	   百度搜索 “编译安卓源码下真机”，待研究。。。
 	   http://blog.csdn.net/u011422742/article/details/52253637
 
