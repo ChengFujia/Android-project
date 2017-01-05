@@ -81,3 +81,5 @@
 	4）android系统 源代码阅读指南 
 	  （系统的讲解了阅读android源代码的步骤 并罗列了众多链接资源，其中关于环境搭建，与我们修改系统源代码相关，因此应当详细看下）
 	   http://blog.csdn.net/watermusicyes/article/details/38531537
+
+	停止 更新 -- 转入 target.docx
