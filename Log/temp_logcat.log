@@ -13,7 +13,7 @@
 01-01 19:50:53.779 I/CTMSimSignalCluster(  605): voice radio technology is0 isGSM = false isRoam= false
 01-01 19:50:53.779 I/CTMSimSignalCluster(  605): setMobileDataIndicators mMobileStrengthId[0]=com.android.systemui:drawable/stat_sys_signal_cdma_null mMobileStrengthId[1]=com.android.systemui:drawable/stat_sys_signal_cdma_null
 01-01 19:50:53.779 I/CTMSimSignalCluster(  605): getAcitivyTypeIconId type=2 inout=0 subscription0
-01-01 19:50:53.779 I/CTMSimSignalCluster(  605): SetMobileDataIndicators MNoSimIconVisiable 0=true
+01-01 19:50:53.779 I/CTMSimSignalCluster(  605): SetMobileDataIndicators MNoSimIconVisiable 0=true
 01-01 19:50:53.809 I/twfx    (  605): data activity sub= 0 refreshViews OVER ALMOST
 01-01 19:50:53.809 I/twfx    (  605): data activity sub= 0 refreshViews last activity mLastDataDirectionOverlayIconId=0 true sub=0
 01-01 19:50:53.819 D/StateMachine(  518): handleMessage: E msg.what=131155
