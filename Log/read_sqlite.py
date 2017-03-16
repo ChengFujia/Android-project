@@ -24,7 +24,6 @@ print "----------Ascii String--------------"
 string_ascii = ba.a2b_hex(string_hex)
 print string_ascii
 
-"""
 print "----------UTF-8 String--------------.decode('ascii').encode('UTF-8')"
 temp = string_ascii.decode('UTF-8')
 print temp.replace('0x','')
@@ -32,4 +31,3 @@ print "----------GBK String----------------"
 print string_ascii.encode('GBK')
 print "----------GBK2312 String------------"
 print string_ascii.encode('GB2312')
-"""
